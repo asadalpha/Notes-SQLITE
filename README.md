@@ -1,16 +1,35 @@
-# my_notes
+# Flutter Notes App
 
-A new Flutter project.
+A simple and efficient notes-taking application built with Flutter and powered by SQLite for offline storage. This app enables users to create, edit, and delete notes effortlessly, storing data locally to ensure accessibility without needing an internet connection.
+
+## Features
+
+- **Create Notes**: Add new notes with a title and body.
+- **Edit Notes**: Update existing notes to keep information relevant.
+- **Delete Notes**: Remove notes that are no longer needed.
+- **Offline Storage**: Save notes locally using SQLite for easy offline access.
+
+## Tech Stack
+
+- **Frontend**: Flutter
+- **Database**: SQLite
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter**: Ensure Flutter SDK is installed. If not, follow the [Flutter installation guide](https://flutter.dev/docs/get-started/install).
+- **SQLite**: No additional installation is required as SQLite comes pre-configured with Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/flutter-notes-app.git
+   cd flutter-notes-app
+2. **Install dependencies:**:
+   ```bash
+   flutter pub get
+3. **Run the app:**:
+   ```bash
+   flutter run
